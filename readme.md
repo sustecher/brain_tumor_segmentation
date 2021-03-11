@@ -56,7 +56,6 @@ bash coregistration.sh "SYSU0032"
 ```
 
 ### Normalization to 1mm
-We define the 3D resizing function as follow.
 
 ```bash
 # bash
