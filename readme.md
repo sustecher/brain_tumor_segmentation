@@ -10,7 +10,7 @@
     + [Download the Docker image](#Download-the-Docker-image)
     + [Using the Docker image](#Using-the-Docker-image)
 
-- [Refenerce](#Reference)
+- [Reference](#Reference)
 
 
 # Dataset
@@ -31,6 +31,7 @@ For our self-obtained data, for example, this looks like this:
     |       ├──SYSU0032_flair.nii.gz
 
 # Usage
+**Test environment**: Python 3.8.5, NVIDIA driver 455.23.04
 
 ## Preprocessing for clinical dataset
 The clinical data (in the folder "/Raw_data") has vairied image size and direction.
@@ -107,14 +108,11 @@ docker run -it --rm --gpus all -v <-your-path>/BraTS_Format/SYSU0032/:/app/data/
 
 One example and the intermediate results for this example have been shared in [Google Drive](https://drive.google.com/drive/folders/1HQb4CuMmGDqIA6DdFXo20JDNxi77z5UL?usp=sharing).
 
-
-
 For more information about this work, please read the following paper:
 
     Yue Zhang, Pinyuan Zhong, Dabin Jie, Jiewei Wu, Shanmei Zeng, Jianping Chu, Yilong Liu, Ed X. Wu and Xiaoying Tang. Brain Tumor Segmentation via Ensembling UNets with Different Inputs.
 
 Please also cite our paper if you think our codes is helpful.
-
 
 The implementation of UNet is based on the [nnUNet](https://github.com/MIC-DKFZ/nnUNet). 
 Many thanks for their great work. 
