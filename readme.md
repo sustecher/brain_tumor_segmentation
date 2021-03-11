@@ -163,6 +163,7 @@ docker pull sustechmedical/brain_tumor_segmentation
 ```
 
 ### Using the Docker image
+
   |         | local path | path inside the Docker image| 
   |---------|----|------|---|----|
   | Input path   |./BraTS_Format/SYSU0032/| /app/data/ |
@@ -172,10 +173,6 @@ docker pull sustechmedical/brain_tumor_segmentation
 #bash
 docker run -it --rm --gpus all -v ./BraTS_Format/SYSU0032/:/app/data/ -v ../Results:/app/results/ sustechmedical/brain_tumor_segmentation/ python runner.py
 ```
-docker run -it --rm --gpus all -v /data1/zhangy/ResultsPath/SYSU0032/:/app/data/ -v /data1/zhangy/ResultsPath/Results/:/app/results/ sustechmedical/brain_tumor_segmentation python runner.py
-
-
-
 
 # Reference
 
