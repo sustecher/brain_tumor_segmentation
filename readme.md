@@ -111,7 +111,7 @@ For more information about this work, please read the following paper:
 
     Yue Zhang, Pinyuan Zhong, Dabin Jie, Jiewei Wu, Shanmei Zeng, Jianping Chu, Yilong Liu, Ed X. Wu and Xiaoying Tang. Brain Tumor Segmentation via Ensembling UNets with Different Inputs.
 
-Please also cite our paper if you think our codes is helpful.
+Please also cite our paper if you think our codes are helpful.
 
 The implementation of UNet is based on the [nnUNet](https://github.com/MIC-DKFZ/nnUNet). 
 Many thanks for their great work. 
