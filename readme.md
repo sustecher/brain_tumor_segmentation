@@ -45,7 +45,7 @@ As shown in the followling table, the size of all images has also been changed t
 
 
 
-  |        | T1 | T2ce | T2| FLAIR |
+  |        | T1 | T1ce | T2| FLAIR |
   |--------|----|------|---|-------|
   | Before | 256\*320\*19  | 348\*384\*256 | 612\*768\*19  | 320\*320\*28  |
   | After  | 348\*384\*256 | 348\*384\*256 | 348\*384\*256 | 348\*384\*256 |
