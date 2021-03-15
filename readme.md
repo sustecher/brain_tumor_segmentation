@@ -79,6 +79,7 @@ python skull_stripping.py --id "SYSU0032"
 ### Summary
 
 As shown in the following figure, the raw clinical can be transformed to the format like BraTS dataset step by step.
+
 ![image](https://github.com/sustecher/brain_tumor_segmentation/blob/master/example.png)
 
 
